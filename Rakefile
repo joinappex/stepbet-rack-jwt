@@ -4,7 +4,7 @@ require 'rspec/core/rake_task'
 VERSION = Bundler::GemHelper.instance.gemspec.version.to_s
 TAG = "v#{VERSION}"
 NAME = Bundler::GemHelper.instance.gemspec.name
-PUSH_URL = "https://#{ENV['GEMFURY_SECRET']}@push.fury.io/waybetter/"
+PUSH_URL = "https://#{ENV['GEMFURY_SECRET']}@push.fury.io/steve-appex/"
 PKG_FN = "pkg/#{NAME}-#{VERSION}.gem"
 
 desc 'Run RSpec'
